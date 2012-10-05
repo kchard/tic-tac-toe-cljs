@@ -28,6 +28,6 @@ lein cljsbuild auto
 
 ## License
 
-Copyright (C) 2011 Kevin Chard
+Copyright (C) 2012 Kevin Chard
 
 
