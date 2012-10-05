@@ -11,6 +11,21 @@ lein run
 
 Play the game at: http://localhost:8080/tic-tac-toe
 
+## Google Closure Compiler
+
+This project used the cljsbuild lein plugin to compile the ClojureScript source to Javascript using the Google Closure Compiler
+
+Clean and Compile to Javascript
+```bash
+lein cljsbuild clean
+lein cljsbuild once
+```
+
+Automatic Compilation for Development
+```bash
+lein cljsbuild auto
+```
+
 ## License
 
 Copyright (C) 2011 Kevin Chard
